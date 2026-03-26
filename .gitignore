@@ -1,0 +1,9 @@
+# 忽略环境变量文件（非常重要！）
+.env
+
+# 忽略本地缓存数据
+quota_cache.json
+
+# 忽略 Python 编译产生的缓存文件夹
+__pycache__/
+*.pyc
