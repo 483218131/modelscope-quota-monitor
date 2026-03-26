@@ -32,8 +32,8 @@ modelscope-api-monitor/
 ### 1. 克隆项目
 
 ``` Bash
-git clone [https://github.com/你的用户名/你的项目名.git](https://github.com/你的用户名/你的项目名.git)
-cd 你的项目名
+git clone https://github.com/483218131/modelscope-quota-monitor.git
+cd modelscope-quota-monitor
 ```
 
 ### 2. 安装依赖
