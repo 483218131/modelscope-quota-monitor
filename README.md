@@ -31,9 +31,7 @@ modelscope-api-monitor/
 
 ### 1. 克隆项目
 
-Bash
-
-```
+``` Bash
 git clone [https://github.com/你的用户名/你的项目名.git](https://github.com/你的用户名/你的项目名.git)
 cd 你的项目名
 ```
@@ -42,9 +40,7 @@ cd 你的项目名
 
 本项目极度轻量，仅依赖两个基础库。建议在虚拟环境中运行：
 
-Bash
-
-```
+``` Bash
 pip install -r requirements.txt
 ```
 
@@ -52,25 +48,19 @@ pip install -r requirements.txt
 
 复制环境变量模板文件：
 
-Bash
-
-```
+``` Bash
 cp .env.example .env
 ```
 
 打开刚刚生成的 `.env` 文件，填入你的魔搭 SDK Token（可在魔搭社区个人中心 -> 访问令牌 获取）：
 
-Code snippet
-
-```
+``` Code snippet
 MODELSCOPE_API_TOKEN=你的真实Token写在这里
 ```
 
 ### 4. 运行工具
 
-Bash
-
-```
+``` Bash
 python main.py
 ```
 
